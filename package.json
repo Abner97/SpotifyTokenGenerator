@@ -1,0 +1,27 @@
+{
+  "name": "spotifytokengenerator",
+  "version": "1.0.0",
+  "description": "This app is to generate spotify token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abner97/SpotifyTokenGenerator.git"
+  },
+  "author": "Abraham Vega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abner97/SpotifyTokenGenerator/issues"
+  },
+  "homepage": "https://github.com/Abner97/SpotifyTokenGenerator#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "query-string": "^6.13.1"
+  }
+}
