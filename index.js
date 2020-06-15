@@ -32,7 +32,7 @@ function getToken(clientId, clientSecret) {
             client_secret: clientSecret
         }), config)
             .then((res) => {
-            console.log(res.data);
+            //console.log(res.data);
             return res.data;
         })
             .catch((error) => {

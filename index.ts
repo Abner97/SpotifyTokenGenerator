@@ -29,7 +29,7 @@ async function getToken(clientId: string, clientSecret: string) {
         
     }),config)
         .then((res: any) => {
-            console.log(res.data);
+            //console.log(res.data);
             return res.data;
 
         })
